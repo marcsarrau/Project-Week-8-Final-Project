@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Sentiment Analysis on Skincare
+*[Marc Sarrau Orus]*
 
-*[Your Cohort, Campus & Date]*
+*[Data Analytics Full Time Barcelona Oct2020]*
 
 ## Content
 - [Project Description](#project-description)
@@ -19,22 +19,19 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show.
+The purpose of this project is to have an understanding and predict if sentiment analysis in social media can be performed with certainty.
 
 ## Hypotheses / Questions
-* What data/business/research/personal question you would like to answer?
-* What is the context for the question and the possible scientific or business application?
-* What are the hypotheses you would like to test in order to answer your question?  
-Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
+* What does people think of skincare?
+* Does it really work?
+* How is sentiment analysis algorithm interpreting human feelings at a large scale?
+* Can I do a better model to predict the coefficient of negativity?
 
 ## Dataset
-* Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* Did you build your own datset? If so, did you use an API or a web scraper? PRovide the relevant scripts in your repo.
-* For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* If the question cannot be answered with the available data, why not? What data would you need to answer it better?
+I have scraped more than 12,000 tweets of the words and hashtags skincare, acne, maskne, accutane and skincare routine. 
 
 ## Cleaning
-Describe your full process of data wrangling and cleaning. Document why you chose to fill missing values, extract outliers, or create the variables you did as well as your reasoning behind the process.
+I have followed the usual pattern: removing stopwords, stemming, lemmatizing, tokenizing and making a bag of words and perform sentiment analysis
 
 ## Analysis
 * Overview the general steps you went through to analyze your data in order to test your hypothesis.
@@ -43,13 +40,11 @@ Describe your full process of data wrangling and cleaning. Document why you chos
 * If you used Machine Learning in your final project, describe your feature selection process.
 
 ## Model Training and Evaluation
-*Include this section only if you chose to include ML in your project.*
-* Describe how you trained your model, the results you obtained, and how you evaluated those results.
+I tried 3 different models: Linear Regression, Random Forest Regressor and Decision Tree. The best results were achieved with the Decision Tree Regressor predicting the negativity coefficient. 
 
 ## Conclusion
-* Summarize your results. What do they mean?
-* What can you say about your hypotheses?
-* Interpret your findings in terms of the questions you try to answer.
+* There is room for word classification improvement and NLP should interpret jargons.
+* There is a large applicability of the model accross the industry and also, it would be ideal to better know the public opinion.
 
 ## Future Work
 Address any questions you were unable to answer, or any next steps or future extensions to your project.
