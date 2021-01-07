@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Sentiment Analysis on Skincare
-*[Marc Sarrau Orus]*
+*Marc Sarrau Orus*
 
-*[Data Analytics Full Time Barcelona Oct2020]*
+*Data Analytics Full Time Barcelona Oct2020*
 
 ## Content
 - [Project Description](#project-description)
